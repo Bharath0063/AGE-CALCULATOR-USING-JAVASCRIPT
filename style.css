@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+}
+
+.container {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    width: 320px;
+    border: 3px solid #ff6f61; 
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 28px;
+    color: #ff6f61; 
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 4px rgba(255, 105, 97, 0.5);
+}
+
+form {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #333;
+}
+
+input[type="date"] {
+    padding: 12px;
+    border: 2px solid #4a90e2;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="date"]:focus {
+    border-color: #50e3c2; 
+    outline: none;
+}
+
+button {
+    padding: 12px 20px;
+    background: linear-gradient(45deg, #ff6f61, #ff9f00);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #ff9f00, #ff6f61); 
+    transform: scale(1.05);
+}
+
+#result {
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 2px solid blue; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
